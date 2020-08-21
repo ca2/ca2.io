@@ -8,3 +8,27 @@ body
 	background-color: Window;
 
 }
+
+/* https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers
+
+*/
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+In case user preference is dark:
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f1f1f;
+        color: white;
+    }
+}
+
+
+
