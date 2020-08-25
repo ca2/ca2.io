@@ -6,6 +6,12 @@ body
     font-family: 'Fira Code', monospace;
 
 }
+a
+{
+	
+	text-decoration: none;
+	
+}
 
 a:link
 {
@@ -27,6 +33,7 @@ a:hover
 {
 	
 	color:#23538c;
+	text-decoration: underline;
 }
 
 /* https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers
