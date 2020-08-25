@@ -7,6 +7,12 @@ body
 
 }
 
+a:hover
+{
+	
+	color:#337AB7;
+}
+
 /* https://stackoverflow.com/questions/50840168/how-to-detect-if-the-os-is-in-dark-mode-in-browsers
 
 */
